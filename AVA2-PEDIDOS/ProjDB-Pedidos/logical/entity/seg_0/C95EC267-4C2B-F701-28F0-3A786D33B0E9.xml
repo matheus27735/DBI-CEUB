@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C95EC267-4C2B-F701-28F0-3A786D33B0E9" name="Item">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:00:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDoProduto" id="8D8833B0-20E2-9FD7-B047-9D5A13D806D1">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:07:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto" id="AB51F056-14CA-E30E-669D-98B94FBCA8EF">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:01:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorTotal" id="74CFA3B3-C597-EFD7-3E6A-B5C8FA19A9DB">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:01:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto1" id="C1EAC41F-780C-1A0A-3B5D-D6950ADB7C05">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:38:59 UTC</createdTime>
+<generatorID>AFB31C72-6A52-C9D3-3C66-32C575EEEE15</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<referedAttribute>C197B01B-B238-5B71-02F2-E65FE9934D1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pedido produto" id="9DAC1D9E-6BF2-F427-B0F7-D0A8A95AADFD">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:42:01 UTC</createdTime>
+<generatorID>AFB31C72-6A52-C9D3-3C66-32C575EEEE15</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<referedAttribute>C197B01B-B238-5B71-02F2-E65FE9934D1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47C85B0D-C165-5D02-AA20-921C82F53858" name="Item PK">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:37:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D8833B0-20E2-9FD7-B047-9D5A13D806D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

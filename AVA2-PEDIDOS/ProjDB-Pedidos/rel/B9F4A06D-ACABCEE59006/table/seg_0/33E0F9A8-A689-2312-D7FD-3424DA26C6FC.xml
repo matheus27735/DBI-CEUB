@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33E0F9A8-A689-2312-D7FD-3424DA26C6FC" name="Vendedor">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>126A1225-0827-2A7D-A071-DF3EE6F1942C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cnpj" id="BB71D9F9-A6DF-2772-8067-3BC169790BD6">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>8289B462-7E5F-195F-EF0A-0EE1F6E0F8A0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18 CHAR</dataTypeSize>
+<ownDataTypeParameters>18 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="5CB74320-938E-6BD2-3C77-5DA37AB954FE">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>FCD9BFF5-9F05-5E3D-10F2-972F8F095DF9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loja" id="E8B084A0-0B81-30BF-956A-BFE884E58682">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>51F28D99-A226-5BA0-717F-BC7FA9AA4399</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0764E7B7-1F8E-0878-8C61-18402D6E8AEA" name="Vendedor_PK">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>18434617-9B63-7E25-F516-DA167C993A24</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB71D9F9-A6DF-2772-8067-3BC169790BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

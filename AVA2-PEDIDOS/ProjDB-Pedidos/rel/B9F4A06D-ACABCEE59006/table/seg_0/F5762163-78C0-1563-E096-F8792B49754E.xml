@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5762163-78C0-1563-E096-F8792B49754E" name="Cliente">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>838C4BE8-62E6-F9F8-9976-8098A0B29388</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="A9F53744-202C-DBC9-A9EB-FEA360E65C0A">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>4F88FFD6-23A9-4C3E-AB5B-91850CB133E2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCompleto" id="AA9958AE-691B-F26F-26F7-AA69F74453C1">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>78061839-1828-486C-3D2A-C45F62600FCB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="984C4CB4-5F33-A374-3BEF-4EB45764EB25">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>0EAFAAC7-391A-DD11-5C0F-B7280FB7784C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataDeNascimento" id="5BAB944C-E8BE-78DA-E6AC-467AED9E3DF8">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>AD5B26E9-72E2-72F0-2B0B-D4D8A0AB4BDA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroDoTelefone" id="4D9D660E-95EC-B327-930F-E1360C36034C">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>192CC83A-9244-C21C-5CA4-58C4932B1322</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="2474DFBB-C682-55AA-EB1B-358121829743">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>960CD93A-8CF4-D3D9-6C24-21D68D3AB64A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="233CD186-C09D-50DD-B611-F0A2FB4160AD" name="Cliente_PK">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:36:13 UTC</createdTime>
+<generatorID>7E7E1C35-5F3B-5F12-1208-F1EB035F1048</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9F53744-202C-DBC9-A9EB-FEA360E65C0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

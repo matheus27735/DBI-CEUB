@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Item Pedido FK" directorySegmentName="seg_0" id="AFB31C72-6A52-C9D3-3C66-32C575EEEE15">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:16:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<sourcePk>522A0217-DC99-178F-B237-4A88D93DDF46</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4A8D2CF-30A1-41F6-1A12-0DA646CBCB32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C95EC267-4C2B-F701-28F0-3A786D33B0E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="idDoProduto1" id="B98CEE09-BCDE-0A63-0124-8D291E8B407A">
+<createdBy>matheus277</createdBy>
+<createdTime>2025-05-06 00:34:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B9F4A06D-2E9C-5D14-534D-ACABCEE59006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
